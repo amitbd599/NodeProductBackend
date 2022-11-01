@@ -45,8 +45,6 @@ const mongoose = require("mongoose");
 
 //! Database Connect
 
-// const URL = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@mycluster.gxni9wo.mongodb.net/portfolio-amitJs?retryWrites=true&w=majority`;
-
 const URL = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.fsp0qs4.mongodb.net/ProductData?retryWrites=true&w=majority`;
 
 mongoose.connect(
